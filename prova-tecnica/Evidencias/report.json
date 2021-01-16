@@ -1,0 +1,936 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Realizar Cadastro do Usuario",
+        "description": "",
+        "id": "cadastro-de-usuario;realizar-cadastro-do-usuario;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7936015200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Usuario acessar o Sistema de cadastros de usuarios da Stefanini",
+            "match": {
+              "location": "CadastrarUsuario.usuario_acessar_o_Sistema_de_cadastros_de_usuarios_da_Stefanini()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 506295600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Informar os dados \"Hugo Boss\" e \"hleonardosj@gmail.com\" e \"12345678\" e clicar em cadastrar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hugo Boss",
+                  "offset": 19
+                },
+                {
+                  "val": "hleonardosj@gmail.com",
+                  "offset": 33
+                },
+                {
+                  "val": "12345678",
+                  "offset": 59
+                }
+              ],
+              "location": "CadastrarUsuario.informar_os_dados_e_e_e_clicar_em_cadastrar(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 159544600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Visualizar os dados \"1\" e \"Hugo Boss\" e \"hleonardosj@gmail.com\" gravados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 21
+                },
+                {
+                  "val": "Hugo Boss",
+                  "offset": 27
+                },
+                {
+                  "val": "hleonardosj@gmail.com",
+                  "offset": 41
+                }
+              ],
+              "location": "CadastrarUsuario.visualizar_os_dados_e_e_gravados(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 327295100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Salva a evidencia",
+            "match": {
+              "location": "CadastrarUsuario.salva_a_evidencia()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 63015100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "exclui o usuario gravado",
+            "match": {
+              "location": "CadastrarUsuario.exclui_o_usuario_gravado()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 706170900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Fecha o navegador",
+            "match": {
+              "location": "CadastrarUsuario.fecha_o_navegador()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@CadastroUsuario"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Realizar Cadastro do Usuario",
+        "description": "",
+        "id": "cadastro-de-usuario;realizar-cadastro-do-usuario;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8388944500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Usuario acessar o Sistema de cadastros de usuarios da Stefanini",
+            "match": {
+              "location": "CadastrarUsuario.usuario_acessar_o_Sistema_de_cadastros_de_usuarios_da_Stefanini()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 350343200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Informar os dados \"Carllos Son\" e \"carllosson@gmail.com\" e \"87654321\" e clicar em cadastrar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Carllos Son",
+                  "offset": 19
+                },
+                {
+                  "val": "carllosson@gmail.com",
+                  "offset": 35
+                },
+                {
+                  "val": "87654321",
+                  "offset": 60
+                }
+              ],
+              "location": "CadastrarUsuario.informar_os_dados_e_e_e_clicar_em_cadastrar(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 279118300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Visualizar os dados \"1\" e \"Carllos Son\" e \"carllosson@gmail.com\" gravados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 21
+                },
+                {
+                  "val": "Carllos Son",
+                  "offset": 27
+                },
+                {
+                  "val": "carllosson@gmail.com",
+                  "offset": 43
+                }
+              ],
+              "location": "CadastrarUsuario.visualizar_os_dados_e_e_gravados(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 92099900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Salva a evidencia",
+            "match": {
+              "location": "CadastrarUsuario.salva_a_evidencia()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 50421000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "exclui o usuario gravado",
+            "match": {
+              "location": "CadastrarUsuario.exclui_o_usuario_gravado()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 706083200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Fecha o navegador",
+            "match": {
+              "location": "CadastrarUsuario.fecha_o_navegador()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@CadastroUsuario"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "Visualizar o cadastro",
+        "description": "",
+        "id": "cadastro-de-usuario;visualizar-o-cadastro;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6827675600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Usuario acessar o Sistema de cadastros de usuarios da Stefanini",
+            "match": {
+              "location": "CadastrarUsuario.usuario_acessar_o_Sistema_de_cadastros_de_usuarios_da_Stefanini()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 362968900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Informar os dados \"Hugo Boss\" e \"hleonardosj@gmail.com\" e \"12345678\" e clicar em cadastrar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hugo Boss",
+                  "offset": 19
+                },
+                {
+                  "val": "hleonardosj@gmail.com",
+                  "offset": 33
+                },
+                {
+                  "val": "12345678",
+                  "offset": 59
+                }
+              ],
+              "location": "CadastrarUsuario.informar_os_dados_e_e_e_clicar_em_cadastrar(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 224003900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Visualizar os dados \"1\" e \"Hugo Boss\" e \"hleonardosj@gmail.com\" gravados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 21
+                },
+                {
+                  "val": "Hugo Boss",
+                  "offset": 27
+                },
+                {
+                  "val": "hleonardosj@gmail.com",
+                  "offset": 41
+                }
+              ],
+              "location": "CadastrarUsuario.visualizar_os_dados_e_e_gravados(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 1394337100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Fecha o navegador",
+            "match": {
+              "location": "CadastrarUsuario.fecha_o_navegador()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@CadastroUsuario"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "Visualizar o cadastro",
+        "description": "",
+        "id": "cadastro-de-usuario;visualizar-o-cadastro;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6726017900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Usuario acessar o Sistema de cadastros de usuarios da Stefanini",
+            "match": {
+              "location": "CadastrarUsuario.usuario_acessar_o_Sistema_de_cadastros_de_usuarios_da_Stefanini()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 337977600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Informar os dados \"Carllos Son\" e \"carllosson@gmail.com\" e \"87654321\" e clicar em cadastrar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Carllos Son",
+                  "offset": 19
+                },
+                {
+                  "val": "carllosson@gmail.com",
+                  "offset": 35
+                },
+                {
+                  "val": "87654321",
+                  "offset": 60
+                }
+              ],
+              "location": "CadastrarUsuario.informar_os_dados_e_e_e_clicar_em_cadastrar(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 235401900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Visualizar os dados \"1\" e \"Carllos Son\" e \"carllosson@gmail.com\" gravados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 21
+                },
+                {
+                  "val": "Carllos Son",
+                  "offset": 27
+                },
+                {
+                  "val": "carllosson@gmail.com",
+                  "offset": 43
+                }
+              ],
+              "location": "CadastrarUsuario.visualizar_os_dados_e_e_gravados(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 673899100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Fecha o navegador",
+            "match": {
+              "location": "CadastrarUsuario.fecha_o_navegador()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@CadastroUsuario"
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "Salvar evidencia",
+        "description": "",
+        "id": "cadastro-de-usuario;salvar-evidencia;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8357783600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Usuario acessar o Sistema de cadastros de usuarios da Stefanini",
+            "match": {
+              "location": "CadastrarUsuario.usuario_acessar_o_Sistema_de_cadastros_de_usuarios_da_Stefanini()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 328750500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Informar os dados \"Hugo Boss\" e \"hleonardosj@gmail.com\" e \"12345678\" e clicar em cadastrar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hugo Boss",
+                  "offset": 19
+                },
+                {
+                  "val": "hleonardosj@gmail.com",
+                  "offset": 33
+                },
+                {
+                  "val": "12345678",
+                  "offset": 59
+                }
+              ],
+              "location": "CadastrarUsuario.informar_os_dados_e_e_e_clicar_em_cadastrar(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 257050400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Visualizar os dados \"1\" e \"Hugo Boss\" e \"hleonardosj@gmail.com\" gravados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 21
+                },
+                {
+                  "val": "Hugo Boss",
+                  "offset": 27
+                },
+                {
+                  "val": "hleonardosj@gmail.com",
+                  "offset": 41
+                }
+              ],
+              "location": "CadastrarUsuario.visualizar_os_dados_e_e_gravados(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 102792500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Salva a evidencia",
+            "match": {
+              "location": "CadastrarUsuario.salva_a_evidencia()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 688777400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Fecha o navegador",
+            "match": {
+              "location": "CadastrarUsuario.fecha_o_navegador()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@CadastroUsuario"
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "Salvar evidencia",
+        "description": "",
+        "id": "cadastro-de-usuario;salvar-evidencia;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8352383900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Usuario acessar o Sistema de cadastros de usuarios da Stefanini",
+            "match": {
+              "location": "CadastrarUsuario.usuario_acessar_o_Sistema_de_cadastros_de_usuarios_da_Stefanini()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 383076200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Informar os dados \"Carllos Son\" e \"carllosson@gmail.com\" e \"87654321\" e clicar em cadastrar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Carllos Son",
+                  "offset": 19
+                },
+                {
+                  "val": "carllosson@gmail.com",
+                  "offset": 35
+                },
+                {
+                  "val": "87654321",
+                  "offset": 60
+                }
+              ],
+              "location": "CadastrarUsuario.informar_os_dados_e_e_e_clicar_em_cadastrar(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 249544500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Visualizar os dados \"1\" e \"Carllos Son\" e \"carllosson@gmail.com\" gravados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 21
+                },
+                {
+                  "val": "Carllos Son",
+                  "offset": 27
+                },
+                {
+                  "val": "carllosson@gmail.com",
+                  "offset": 43
+                }
+              ],
+              "location": "CadastrarUsuario.visualizar_os_dados_e_e_gravados(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 92678400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Salva a evidencia",
+            "match": {
+              "location": "CadastrarUsuario.salva_a_evidencia()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 729315800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Fecha o navegador",
+            "match": {
+              "location": "CadastrarUsuario.fecha_o_navegador()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@CadastroUsuario"
+          }
+        ]
+      },
+      {
+        "line": 53,
+        "name": "Apagar o cadastro",
+        "description": "",
+        "id": "cadastro-de-usuario;apagar-o-cadastro;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8263538500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Usuario acessar o Sistema de cadastros de usuarios da Stefanini",
+            "match": {
+              "location": "CadastrarUsuario.usuario_acessar_o_Sistema_de_cadastros_de_usuarios_da_Stefanini()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 336228200,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Informar os dados \"Hugo Boss\" e \"hleonardosj@gmail.com\" e \"12345678\" e clicar em cadastrar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hugo Boss",
+                  "offset": 19
+                },
+                {
+                  "val": "hleonardosj@gmail.com",
+                  "offset": 33
+                },
+                {
+                  "val": "12345678",
+                  "offset": 59
+                }
+              ],
+              "location": "CadastrarUsuario.informar_os_dados_e_e_e_clicar_em_cadastrar(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 256848600,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Visualizar os dados \"1\" e \"Hugo Boss\" e \"hleonardosj@gmail.com\" gravados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 21
+                },
+                {
+                  "val": "Hugo Boss",
+                  "offset": 27
+                },
+                {
+                  "val": "hleonardosj@gmail.com",
+                  "offset": 41
+                }
+              ],
+              "location": "CadastrarUsuario.visualizar_os_dados_e_e_gravados(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 66432100,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "exclui o usuario gravado",
+            "match": {
+              "location": "CadastrarUsuario.exclui_o_usuario_gravado()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 672028900,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Fecha o navegador",
+            "match": {
+              "location": "CadastrarUsuario.fecha_o_navegador()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@CadastroUsuario"
+          }
+        ]
+      },
+      {
+        "line": 54,
+        "name": "Apagar o cadastro",
+        "description": "",
+        "id": "cadastro-de-usuario;apagar-o-cadastro;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6781102300,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Usuario acessar o Sistema de cadastros de usuarios da Stefanini",
+            "match": {
+              "location": "CadastrarUsuario.usuario_acessar_o_Sistema_de_cadastros_de_usuarios_da_Stefanini()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 502094100,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Informar os dados \"Carllos Son\" e \"carllosson@gmail.com\" e \"87654321\" e clicar em cadastrar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Carllos Son",
+                  "offset": 19
+                },
+                {
+                  "val": "carllosson@gmail.com",
+                  "offset": 35
+                },
+                {
+                  "val": "87654321",
+                  "offset": 60
+                }
+              ],
+              "location": "CadastrarUsuario.informar_os_dados_e_e_e_clicar_em_cadastrar(String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 159018800,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Visualizar os dados \"1\" e \"Carllos Son\" e \"carllosson@gmail.com\" gravados",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 21
+                },
+                {
+                  "val": "Carllos Son",
+                  "offset": 27
+                },
+                {
+                  "val": "carllosson@gmail.com",
+                  "offset": 43
+                }
+              ],
+              "location": "CadastrarUsuario.visualizar_os_dados_e_e_gravados(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 63572500,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "exclui o usuario gravado",
+            "match": {
+              "location": "CadastrarUsuario.exclui_o_usuario_gravado()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 722909100,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Fecha o navegador",
+            "match": {
+              "location": "CadastrarUsuario.fecha_o_navegador()"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@CadastroUsuario"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de Usuario",
+    "description": "",
+    "id": "cadastro-de-usuario",
+    "keyword": "Funcionalidade",
+    "uri": "Features/CadastrarUsuario.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@CadastroUsuario"
+      }
+    ]
+  }
+]
